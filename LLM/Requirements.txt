@@ -1,0 +1,36 @@
+
+## Requirements
+
+**Python Libraries:**
+
+* torch
+* diffusers
+* transformers
+* accelerate
+* safetensors
+* flask
+* pillow
+* base64 (built-in)
+* io (built-in)
+
+## Features:
+
+* Joke-to-comic generation pipeline
+* Automatic 3-panel comic script generation (GPT-2)
+* Text-to-image comic generation (Stable Diffusion v1.5)
+* Comic-style prompt engineering
+* CPU-compatible execution (GPU optional)
+* End-to-end automated workflow
+* Base64 image rendering in browser
+* No database or persistent storage (POC implementation)
+* Fully open-source, no paid API dependency
+
+## Tech Stack:
+
+* Python
+* Flask (Web Framework)
+* Stable Diffusion v1.5 (Open-source diffusion model)
+* GPT-2 (Hugging Face Transformers)
+* PyTorch (Deep Learning Backend)
+* Hugging Face (Model Hosting & Weights)
+
